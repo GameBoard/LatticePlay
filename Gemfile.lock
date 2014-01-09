@@ -1,0 +1,68 @@
+GIT
+  remote: git://github.com/celluloid/lattice.git
+  revision: 2241af78cf4de50b683e614b7aefac9c31f170e4
+  specs:
+    lattice (0.3.0)
+      activesupport (~> 4.0.0)
+      celluloid (>= 0.15.1)
+      colorize (>= 0.5.0)
+      reel (>= 0.4.0)
+      thor (>= 0.18.0)
+      webmachine (~> 1.2.1)
+
+GIT
+  remote: git://github.com/seancribbs/webmachine-ruby.git
+  revision: 65f2649674ee1e9b7c558896d93201aaf57b420d
+  specs:
+    webmachine (1.2.1)
+      as-notifications (~> 1.0)
+      i18n (>= 0.4.0)
+      multi_json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.0.1)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    as-notifications (1.0.1)
+    atomic (1.1.14)
+    celluloid (0.15.2)
+      timers (~> 1.1.0)
+    celluloid-io (0.15.0)
+      celluloid (>= 0.15.0)
+      nio4r (>= 0.5.0)
+    colorize (0.6.0)
+    http (0.5.0)
+      http_parser.rb
+    http_parser.rb (0.6.0.beta.2)
+    i18n (0.6.5)
+    minitest (4.7.5)
+    multi_json (1.8.2)
+    nio4r (0.5.0)
+    reel (0.4.0)
+      celluloid (>= 0.15.1)
+      celluloid-io (>= 0.15.0)
+      http (>= 0.5.0)
+      http_parser.rb (>= 0.6.0.beta.2)
+      websocket_parser (>= 0.1.4)
+    thor (0.18.1)
+    thread_safe (0.1.3)
+      atomic
+    timers (1.1.0)
+    tzinfo (0.3.38)
+    webmachine-test (0.2.1)
+      webmachine
+    websocket_parser (0.1.4)
+      http
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  lattice!
+  webmachine!
+  webmachine-test
